@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title></title>
+        <link rel="icon" href=""/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+              integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+        <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/black.css">
+    </head>
+    <body>
+
+        <nav class="home-header navbar navbar-expand-lg navbar-light">
+            <div class="header-left">
+                <a class="header-left-logo  logo-name" href="index.html">
+                    LOGO NAME
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="header-right collapse navbar-collapse nav-menu" id="navbarSupportedContent">
+                <div class="header-btns">
+                    <input class="search-btn" type="text" placeholder="Search">
+                    <div class="dropdown">
+                      <button class="popular-select dropdown-toggle" type="button" id="dropdownMenuButton-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Popular
+                      </button>
+                      <div class="popular-dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton-2">
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="#">Popular</a>
+                        <a class="dropdown-item" href="#">All</a>
+                        <a class="dropdown-item" href="#">Top Communities</a>
+                        <a class="dropdown-item" href="coins.html">Coins</a>
+                        <a class="dropdown-item" href="premium.html">Premium</a>
+                      </div>
+                    </div>
+                    <div class="login-hide-block">
+                        <a class="login-text" data-toggle="modal" data-target="#loginModal">Login</a>
+                        <a class="sign-up-btn" data-toggle="modal" data-target="#registerModal">Sign Up</a>
+                    </div>
+                    <div class="already-login dropdown">
+                        <img src="img/front.png" data-toggle="modal" data-target="#postModal">
+                        <img src="img/chat-menu.png" class="chat-open">
+                        <img src="img/pencil.png">
+                        <div class="menu-after-login" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="img/item-1.png">
+                            <span class="text-5">John Cook</span>
+                            <img src="img/down-white.png">
+                        </div>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item text-6">MY STUFF</a>
+                            <a class="dropdown-item" href="my-profile.html">
+                                <div class="dropdown-item-img">
+                                    <img src="img/man-user.png">
+                                </div>
+                                <span class="text-7">My Profile</span>
+                            </a>
+                            <a class="dropdown-item" href="set-account.html">
+                                <div class="dropdown-item-img">
+                                    <img src="img/repairing-service.png">
+                                </div>
+                                <span class="text-7">User Settings</span>
+                            </a>
+                            <a class="dropdown-item text-6">VIEW OPTIONS</a>
+                            <a class="dropdown-item keep-inside-clicks-open" href="#">
+                                <div class="dropdown-item-img">
+                                    <img src="img/moon.png">
+                                </div>
+                                <span class="text-7">Night Mode</span>
+                                <label class="switch">
+                                    <input type="checkbox" checked data-toggle="toggle">
+                                    <span class="slider round" id="toggleInput"></span>
+                                </label>
+                            </a>
+                            <a class="dropdown-item text-6">MORE STUFF</a>
+                            <a class="dropdown-item" href="coins.html">
+                                <div class="dropdown-item-img">
+                                    <img src="img/coin-stack.png">
+                                </div>
+                                <span class="text-7">Coins</span>
+                            </a>
+                            <a class="dropdown-item" href="premium.html">
+                                <div class="dropdown-item-img">
+                                    <img src="img/premium.png">
+                                </div>
+                                <span class="text-7">Premium</span>
+                            </a>
+                            <a class="dropdown-item" href="help-center.html">
+                                <div class="dropdown-item-img">
+                                    <img src="img/icon.png">
+                                </div>
+                                <span class="text-7">Help Center</span>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="dropdown-item-img">
+                                    <img src="img/sign-out-option.png">
+                                </div>
+                                <span class="text-7">Log Out</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="sec-header">
+            <div class="second-content">
+                <div class="second-header">
+                    <div class="orientation">
+                        <span class="second-header-view">VIEW</span>
+                        <img class="black-time" src="img/black-time-1.png">
+                        <img class="white-time" src="img/or-11.png">
+                        <img src="img/or-2.png">
+                        <img src="img/or-3.png">
+                    </div>
+                    <div class="sort-part">
+                        <div>
+                            <span class="second-header-sort">SORT</span>
+                            <img class="blue-img" src="img/fire-symbol.png">
+                            <img class="white-img" src="img/fire-symbol-white.png">
+                        </div>
+                        <select class="popular-select-hot">
+                            <option>Hot</option>
+                            <option>New</option>
+                            <option>Top</option>
+                            <option>Rising</option>
+                        </select>
+                        <select class="popular-select-everywhere">
+                            <option>Everywhere</option>
+                            <option>Everywhere</option>
+                            <option>Everywhere</option>
+                            <option>Everywhere</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="second-content-info">
+            <div class="second-content">
+                <div class="trending-today">
+                    <h1 class="trending-today-title">Trending today</h1>
+                    <div class="trending-block-div">
+                        <div class="trending-block trending-block-1">
+                            <div class="trending-block-texts">
+                                <h1 class="trending-block-text-1">Lorem Ipsum</h1>
+                                <h2 class="trending-block-text-2">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="trending-block trending-block-2">
+                            <div class="trending-block-texts">
+                                <h1 class="trending-block-text-1">Lorem Ipsum</h1>
+                                <h2 class="trending-block-text-2">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="trending-block trending-block-3">
+                            <div class="trending-block-texts">
+                                <h1 class="trending-block-text-1">Lorem Ipsum</h1>
+                                <h2 class="trending-block-text-2">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="trending-block trending-block-4">
+                            <div class="trending-block-texts">
+                                <h1 class="trending-block-text-1">Lorem Ipsum</h1>
+                                <h2 class="trending-block-text-2">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="trending-today-title">Trending today</h1>
+                    <div class="create-posts">
+                        <div class="create-posts-left">
+                            <div class="create-post-input">
+                                <input placeholder="Create Post">
+                                <div class="create-post-img">
+                                    <img src="img/gall.png">
+                                    <img src="img/link.png">
+                                </div>
+                                <div class="create-post-img-2">
+                                    <img src="img/gall-light.png">
+                                    <img src="img/link-light.png">
+                                </div>
+                            </div>
+                            <div class="create-posts-content">
+                                <div class="mrg-50">
+                                    <div class="create-posts-content-head">
+                                        <div class="create-posts-content-head-block">
+                                            <div>
+                                                <img src="img/item-4.png">
+                                            </div>
+                                            <div>
+                                                <p class="text-1">Harry Miller</p>
+                                                <p class="text-4">4hours ago</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a class="join-btn">Join</a>
+                                        </div>
+                                    </div>
+                                    <p class="text-3">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="d-flex ">
+                                    <div class="post-left">
+                                        <img src="img/top-arrow.png">
+                                        <div class="post-count">41.6k</div>
+                                        <img src="img/down-arrow.png">
+                                    </div>
+                                    <div class="post-right">
+                                        <iframe width="100%" height="345" src="https://www.youtube.com/embed/yKhh4k4_seA">
+                                        </iframe>
+                                        <div class="video-footer">
+                                            <div><img src="img/chat.png"><span>221 comments</span></div>
+                                            <div><img src="img/share.png"><span>Share</span></div>
+                                            <div><img src="img/save.png"><span>Save</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="create-posts-content">
+                                <div class="mrg-50">
+                                    <div class="create-posts-content-head">
+                                        <div class="create-posts-content-head-block">
+                                            <div>
+                                                <img src="img/item-3.png">
+                                            </div>
+                                            <div>
+                                                <p class="text-1">John Cook</p>
+                                                <p class="text-4">4hours ago</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a class="join-btn">Join</a>
+                                        </div>
+                                    </div>
+                                    <p class="text-3">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="d-flex ">
+                                    <div class="post-left">
+                                        <img src="img/top-arrow.png">
+                                        <div class="post-count">41.6k</div>
+                                        <img src="img/down-arrow.png">
+                                    </div>
+                                    <div class="post-right">
+                                        <div class="post-right-content">
+                                            <div><img src="img/img-1.png"></div>
+                                            <div><img src="img/img-2.png"></div>
+                                        </div>
+                                        <div class="video-footer">
+                                            <div><img src="img/chat.png"><span>221 comments</span></div>
+                                            <div><img src="img/share.png"><span>Share</span></div>
+                                            <div><img src="img/save.png"><span>Save</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="create-posts-content">
+                                <div class="mrg-50">
+                                    <div class="create-posts-content-head">
+                                        <div class="create-posts-content-head-block">
+                                            <div>
+                                                <img src="img/item-2.png">
+                                            </div>
+                                            <div>
+                                                <p class="text-1">John Cook</p>
+                                                <p class="text-4">4hours ago</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a class="join-btn">Join</a>
+                                        </div>
+                                    </div>
+                                    <p class="text-3">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="post-left">
+                                        <img src="img/top-arrow.png">
+                                        <div class="post-count">41.6k</div>
+                                        <img src="img/down-arrow.png">
+                                    </div>
+                                    <div class="post-right">
+                                        <div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel arcu. Suspendisse vel arcu quis ligula facilisis rhoncus quis ut libero.
+                                                Suspendisse porttitor tellus quis purus accumsan, at posuere nulla maximus.
+                                                Donec non scelerisque felis, a dictum leo. Sed aliquet risus vel odio euismod eleifend. Aenean mattis quam metus, non imperdiet magna faucibus ac.
+                                                Integer at fringilla nibh, ornare eleifend diam.Nam pretium leo dictum dui commodo tempus. Donec cursus eros et nunc pellentesque, sed volutpat nibh auctor.<br><br>
+
+                                                Suspendisse nec libero at nunc dictum egestas ut id erat. Praesent laoreet, orci at elementum rhoncus, orci libero eleifend metus, aliquam vehicula elit neque nec neque.
+                                                Curabitur eu urna ipsum. Suspendisse feugiat ullamcorper risus, sit amet imperdiet odio posuere vitae.<br><br>
+
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel arcu. Suspendisse vel arcu quis ligula facilisis rhoncus quis ut libero.
+                                                Suspendisse porttitor tellus quis purus accumsan, at posuere nulla maximus. Donec non scelerisque felis, a dictum leo. Sed aliquet risus vel odio euismod eleifend.
+                                                Aenean mattis quam metus, non imperdiet magna faucibus ac. Integer at fringilla nibh, ornare eleifend diam. Nam pretium leo dictum dui commodo tempus.
+                                                Donec cursus eros et nunc pellentesque, sed volutpat nibh auctor. Suspendisse nec libero at nunc dictum egestas ut id erat.
+                                                Praesent laoreet, orci at elementum rhoncus, orci libero eleifend metus, aliquam vehicula elit neque nec neque. Curabitur eu urna ipsum.
+                                                Suspendisse feugiat ullamcorper risus, sit amet imperdiet odio posuere vitae.
+                                            </p>
+                                        </div>
+                                        <div class="video-footer">
+                                            <div><img src="img/chat.png"><span>221 comments</span></div>
+                                            <div><img src="img/share.png"><span>Share</span></div>
+                                            <div><img src="img/save.png"><span>Save</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="create-posts-right">
+                            <div class="trending-block-aside trending-block-5">
+                                <div class="trending-block-texts-aside">
+                                    <h1 class="trending-block-text-1">
+                                        Today's Top Growing
+                                        Communities
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="aside-block-1">
+                                <ul>
+                                    <li>
+                                        <img src="img/item-1.png"><span>John Cook</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/item-2.png"><span>Hellen Fine</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/item-3.png"><span>Mary Stone</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/item-4.png"><span>David Macdonald</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/item-5.png"><span>Steve Porter</span>
+                                    </li>
+                                </ul>
+                                <a class="view-all-btn">View All</a>
+                                <div class="aside-block-1-test">
+                                    <span>Sports</span>
+                                    <span>News</span>
+                                    <span>Gaming</span>
+                                    <span>Aww</span>
+                                </div>
+                            </div>
+                            <div class="aside-block-2">
+                                <h4 class="aside-block-span">Advertisement</h4>
+                                <div class="w-100">
+                                    <img src="img/horse.png">
+                                </div>
+                                <a class="view-all-btn">Equestrian</a>
+                            </div>
+                            <div class="aside-block-2">
+                                <h3 class="aside-block-text-3">Premium version</h3>
+                                <h4 class="aside-block-span text-center">Lorem ipsum dolor sit amet</h4>
+                                <a class="view-all-btn">Try Now</a>
+                            </div>
+                            <div class="aside-block-2">
+                                <h3 class="aside-block-text-4">Trending Communities</h3>
+                                <div class="aside-block-3">
+                                    <div class="aside-block-3-item"><img src="img/man-1.png"></div>
+                                    <span>John Cook</span>
+                                    <a class="aside-block-3-btn">Join</a>
+                                </div>
+                                <div class="aside-block-3">
+                                    <div class="aside-block-3-item"><img src="img/man-2.png"></div>
+                                    <span>Hellen Fine</span>
+                                    <a class="aside-block-3-btn">Join</a>
+                                </div>
+                                <div class="aside-block-3">
+                                    <div class="aside-block-3-item"><img src="img/man-3.png"></div>
+                                    <span>Mary Stone</span>
+                                    <a class="aside-block-3-btn">Join</a>
+                                </div>
+                                <div class="aside-block-3">
+                                    <div class="aside-block-3-item"><img src="img/man-4.png"></div>
+                                    <span>David Clarck</span>
+                                    <a class="aside-block-3-btn">Join</a>
+                                </div>
+                                <div class="aside-block-3">
+                                    <div class="aside-block-3-item"><img src="img/man-5.png"></div>
+                                    <span>Steve Porter</span>
+                                    <a class="aside-block-3-btn">Join</a>
+                                </div>
+                            </div>
+                            <div class="trending-block-aside trending-block-6">
+                                <div class="trending-block-texts-aside-3 ">
+                                    <h1 class="trending-block-text-1">
+                                        Home
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="aside-block-1">
+                                <p class="aside-block-frontpage-text">
+                                    Tour personal frontpage. Come here to check in with your favorive communities
+                                </p>
+                                <a class="view-all-btn">Create Post</a>
+                                <a class="communities-btn">Create Community</a>
+                            </div>
+                            <div class="aside-block-2">
+                                <h3 class="aside-block-text-4">Popular Communities</h3>
+                                <div class="ask-reddit-questions">
+                                    <div>AskReddit</div>
+                                    <div>NoStupidQuestions</div>
+                                    <div>DestinyTheGame</div>
+                                    <div>AskMen</div>
+                                    <div>explainlikeimfive</div>
+                                </div>
+                                <h3 class="see-more">See more</h3>
+                                <div class="accordion" id="accordionExample">
+                                    <div class="popular-communities-items">
+                                        <a id="headingOne"
+                                           data-toggle="collapse"
+                                           data-target="#collapseOne"
+                                           aria-expanded="false"
+                                           aria-controls="collapseOne">
+                                            Gaming <img src="img/down-gray.png">
+                                        </a>
+                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <ul>
+                                                <li>Assassin's</li>
+                                                <li>100 door</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="popular-communities-items">
+                                        <a id="headingTwo"
+                                           data-toggle="collapse"
+                                           data-target="#collapseTwo"
+                                           aria-expanded="false"
+                                           aria-controls="collapseTwo">
+                                            Sports <img src="img/down-gray.png">
+                                        </a>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <ul>
+                                                <li>Swimming</li>
+                                                <li>Hiking</li>
+                                                <li>Jumping</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="popular-communities-items">
+                                        <a id="headingThree"
+                                           data-toggle="collapse"
+                                           data-target="#collapseThree"
+                                           aria-expanded="false"
+                                           aria-controls="collapseTwo">
+                                            TV <img src="img/down-gray.png">
+                                        </a>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <ul>
+                                                <li>Swimming</li>
+                                                <li>Hiking</li>
+                                                <li>Jumping</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="popular-communities-items">
+                                        <a id="headingFour"
+                                           data-toggle="collapse"
+                                           data-target="#collapseFour"
+                                           aria-expanded="false"
+                                           aria-controls="collapseTwo">
+                                            Travel <img src="img/down-gray.png">
+                                        </a>
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                            <ul>
+                                                <li>Mountains</li>
+                                                <li>Lake</li>
+                                                <li>Ocean</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="popular-communities-items">
+                                        <a id="headingFive"
+                                           data-toggle="collapse"
+                                           data-target="#collapseFive"
+                                           aria-expanded="false"
+                                           aria-controls="collapseTwo">
+                                            Health & Fitness <img src="img/down-gray.png">
+                                        </a>
+                                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                            <ul>
+                                                <li>Meditation</li>
+                                                <li>Yoga</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="popular-communities-items">
+                                        <a id="headingSix"
+                                           class="border-bottom-0"
+                                           data-toggle="collapse"
+                                           data-target="#collapseSix"
+                                           aria-expanded="false"
+                                           aria-controls="collapseTwo">
+                                            Fashion<img src="img/down-gray.png">
+                                        </a>
+                                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                            <ul>
+                                                <li>Dresses</li>
+                                                <li>Scarf</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="aside-block-2 last-aside">
+                                <ul>
+                                    <li><a>About</a></li>
+                                    <li><a>Careers</a></li>
+                                    <li><a>Press</a></li>
+                                    <li><a>Advertise</a></li>
+                                    <li><a>Blog</a></li>
+                                    <li><a>Help</a></li>
+                                </ul>
+                                <p class="copy-right">CopyRight 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <section class="chat-section">
+	        <div class="chat-block">
+                <div class="chat-header">
+                    <div class="chat-header-left">
+						<div class="rooms-direct rooms-direct-bottom">Rooms</div>
+						<div class="rooms-direct">Directs</div>
+					</div>
+					<div class="chat-header-right">
+                        <img src="img/chat/minimize.png" class="chat-minimize">
+                        <img src="img/chat/close.png" class="chat-close">
+					</div>
+				</div>
+                <div class="chat-rooms">
+                    <div class="chat-left" id="style-2">
+                        <div class="chat-left-item">
+						<div class="chat-left-item-left">
+							<img src="img/chat/man.png">
+						</div>
+						<div>
+							<p class="chat-title">John Cook</p>
+							<p class="chat-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel </p>
+						</div>
+					</div>
+				        <div class="chat-left-item">
+                        <div class="chat-left-item-left">
+                            <img src="img/chat/man.png">
+                        </div>
+                        <div>
+                            <p class="chat-title">John Cook</p>
+                            <p class="chat-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel </p>
+                        </div>
+                    </div>
+					</div>
+                    <div class="chat-right">
+                        <div class="chat-right-item">
+                            <div class="chat-left-item-left">
+                                <img src="img/chat/man.png">
+                            </div>
+                            <div>
+                                <p class="chat-title">John Cook</p>
+                                <p class="chat-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel </p>
+                            </div>
+                        </div>
+                        <div class="chat-right-fixed">
+							<input class="chat-right-input" placeholder="Lorem Ipsum">
+							<div class="chat-right-icons">
+								<div class="chat-image-upload">
+                                     <img src="img/chat/smile.png" class="chat-right-icons-2">
+                                     <img src="img/chat/smile-2.png" class="chat-right-icons-3">
+                                </div>
+								<div class="chat-image-upload">
+                                    <label for="chat-input-file">
+                                       <img src="img/chat/attachment.png" class="chat-right-icons-2">
+                                        <img src="img/chat/attachment-2.png" class="chat-right-icons-3">
+                                    </label>
+                                    <input id="chat-input-file" type="file" name="images" accept="image/*" />
+                                </div>
+                                <div class="chat-image-upload">
+                                    <label for="chat-input-file-2">
+                                     <img src="img/chat/gallery.png" class="chat-right-icons-2">
+                                      <img src="img/chat/gallery-2.png" class="chat-right-icons-3">
+                                    </label>
+                                    <input id="chat-input-file-2" type="file" name="images" accept="image/*" />
+                                </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="chat-section-2">
+			<div class="open-small-chat">Chat</div>
+			<div><img src="img/chat/close.png"></div>
+		</section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <h5 class="modal-title"></h5>
+                        <img class="login-modal-close" data-dismiss="modal" aria-label="Close" src="img/close.png">
+                    </div>
+                    <div>
+                        <h1 class="login-title">Login</h1>
+                        <form class="login-form">
+                            <input class="input-write" type="text" placeholder="Username">
+                            <input class="input-write" type="password" placeholder="Password">
+                            <div class="checkbox">
+                                <label class="login-remember-me"><input type="checkbox"> Remember me</label>
+                            </div>
+                            <a class="login-btn">Login</a>
+                            <a class="forgot-pass" href="#">Forgot password</a>
+                            <a class="forgot-pass" href="#">Forgot username</a>
+                            <a class="sign-btn" data-toggle="modal" data-target="#registerModal" data-dismiss="modal" aria-label="Close">Sign Up</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <h5 class="modal-title"></h5>
+                        <img class="login-modal-close" data-dismiss="modal" aria-label="Close" src="img/close.png">
+                    </div>
+                    <div>
+                        <h1 class="login-title">Sign Up</h1>
+                        <form class="register-form">
+                            <div class="casual-verified">
+                                <a class="casual-btn">Casual</a>
+                                <a class="verified-btn" data-toggle="modal" data-target="#verifiedModal" data-dismiss="modal" aria-label="Close">Verified</a>
+                            </div>
+                            <a class="login-gmail" data-toggle="modal" data-target="#finishModal" data-dismiss="modal" aria-label="Close"><i class="fab fa-google"></i>Login with gmail</a>
+                            <a class="login-facebook" data-toggle="modal" data-target="#finishModal" data-dismiss="modal" aria-label="Close"><i class="fab fa-facebook-f"></i>Login with Facebook</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="verifiedModal" tabindex="-1" role="dialog" aria-labelledby="verifiedModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <h5 class="modal-title"></h5>
+                        <img class="login-modal-close" data-dismiss="modal" aria-label="Close" src="img/close.png">
+                    </div>
+                    <div>
+                        <h1 class="login-title mb-5">Sign Up</h1>
+                        <form class="register-form">
+                            <div class="casual-verified">
+                                <a class="verified-btn mb-4 mt-0" data-toggle="modal" data-target="#registerModal" data-dismiss="modal" aria-label="Close">Casual</a>
+                                <a class="casual-btn mb-4 mt-0">Verified</a>
+                            </div>
+                            <input class="input-write" type="text" placeholder="Email">
+                            <input class="input-write" type="text" placeholder="Choose a username">
+                            <input class="input-write" type="password" placeholder="Password">
+                            <input class="input-write" type="password" placeholder="Confirm password">
+                            <div class="local-area-block">
+                                <input class="local-area" type="text" placeholder="Pasport ID">
+                                <input class="local-area display-none" type="file" placeholder="+ Upload doc" id="uploadDoc">
+                                <label class="local-area local-area-file" for="uploadDoc">+ Upload doc</label>
+                            </div>
+                            <input class="input-write" type="text" placeholder="Postcode/Zipcode">
+                            <div class="local-area-block">
+                                <input class="local-area" type="text" placeholder="local area">
+                                <input class="local-area" type="text" placeholder="local town">
+                            </div>
+                            <div class="local-area-block">
+                                <input class="local-area" type="text" placeholder="Address">
+                                <input class="local-area display-none" type="file" placeholder="+ Upload doc" id="uploadDoc2">
+                                <label class="local-area local-area-file" for="uploadDoc2">+ Upload doc</label>
+                            </div>
+                            <div class="checkbox">
+                                <label class="login-remember-me"><input type="checkbox" class="mr-2">Remember me</label>
+                            </div>
+                            <a class="login-btn" data-toggle="modal" data-target="#finishModal" data-dismiss="modal" aria-label="Close">Sign Up</a>
+                            <a class="sign-btn" data-toggle="modal" data-target="#loginModal" data-dismiss="modal" aria-label="Close">Login</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="finishModal" tabindex="-1" role="dialog" aria-labelledby="finishModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content bg-gray-color">
+                    <div class="modal-header border-bottom-0">
+                        <h5 class="modal-title"></h5>
+                        <img class="login-modal-close" data-dismiss="modal" aria-label="Close" src="img/close.png">
+                    </div>
+                    <div>
+                        <h1 class="login-title mb-5">Find communities by topics you're interested in.</h1>
+                    </div>
+                    <div class="topics-block">
+                        <button class="navbar-toggler small-toggle-menu float-right mb-3">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="register-left" id="topicsNavbar">
+                            <div class="register-left-item active">
+                                <img class="blue-icon" src="img/icons/icon-11.png">
+                                <img class="white-icon" src="img/icons/icon-1.png">
+                                <span class="item-text">Just For You</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-11.png">
+                                <img class="white-icon" src="img/icons/icon-1.png">
+                                <span class="item-text">Recommended</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-22.png">
+                                <img class="white-icon" src="img/icons/icon-2.png">
+                                <span class="item-text">Advice</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-33.png">
+                                <img class="white-icon" src="img/icons/icon-3.png">
+                                <span class="item-text">Animals</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-44.png">
+                                <img class="white-icon" src="img/icons/icon-4.png">
+                                <span class="item-text">Art</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-55.png">
+                                <img class="white-icon" src="img/icons/icon-5.png">
+                                <span class="item-text">DIY</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-66.png">
+                                <img class="white-icon" src="img/icons/icon-6.png">
+                                <span class="item-text">Electronics</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-77.png">
+                                <img class="white-icon" src="img/icons/icon-7.png">
+                                <span class="item-text">Entertainment</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-88.png">
+                                <img class="white-icon" src="img/icons/icon-8.png">
+                                <span class="item-text">Fashion</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-99.png">
+                                <img class="white-icon" src="img/icons/icon-9.png">
+                                <span class="item-text">Food</span>
+                            </div>
+                            <div class="register-left-item">
+                                <img class="blue-icon" src="img/icons/icon-10.png">
+                                <img class="white-icon" src="img/icons/icon-100.png">
+                                <span class="item-text">Funny</span>
+                            </div>
+                        </div>
+                        <div class="register-right" id="style-1">
+                            <div class="register-right-item">
+                                <div class="register-right-item-left">
+                                    <span class="right-number">1</span>
+                                    <img src="img/item-1.png">
+                                    <span class="right-title">John Cook</span>
+                                </div>
+                                <div class="register-right-item-content">
+                                    <p class="register-right-item-p">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Donec ut arcu a lorem mattis fermentum eget vel arcu.
+                                    </p>
+                                    <a class="joined-btn">Joined</a>
+                                </div>
+                            </div>
+                            <div class="register-right-item">
+                                <div class="register-right-item-left">
+                                    <span class="right-number">2</span>
+                                    <img src="img/item-2.png">
+                                    <span class="right-title">Hellen Fine</span>
+                                </div>
+                                <div class="register-right-item-content">
+                                    <p class="register-right-item-p">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Donec ut arcu a lorem mattis fermentum eget vel arcu.
+                                    </p>
+                                    <a class="joined-btn">Joined</a>
+                                </div>
+                            </div>
+                            <div class="register-right-item">
+                                <div class="register-right-item-left">
+                                    <span class="right-number">3</span>
+                                    <img src="img/item-3.png">
+                                    <span class="right-title">Mary Stone</span>
+                                </div>
+                                <div class="register-right-item-content">
+                                    <p class="register-right-item-p">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Donec ut arcu a lorem mattis fermentum eget vel arcu.
+                                    </p>
+                                    <a class="joined-btn">Joined</a>
+                                </div>
+                            </div>
+                            <div class="register-right-item">
+                                <div class="register-right-item-left">
+                                    <span class="right-number">4</span>
+                                    <img src="img/item-4.png">
+                                    <span class="right-title">David Macdonald</span>
+                                </div>
+                                <div class="register-right-item-content">
+                                    <p class="register-right-item-p">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Donec ut arcu a lorem mattis fermentum eget vel arcu.
+                                    </p>
+                                    <a class="joined-btn">Joined</a>
+                                </div>
+                            </div>
+                            <div class="register-right-item">
+                                <div class="register-right-item-left">
+                                    <span class="right-number">5</span>
+                                    <img src="img/item-5.png">
+                                    <span class="right-title">Steve Porter</span>
+                                </div>
+                                <div class="register-right-item-content">
+                                    <p class="register-right-item-p">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Donec ut arcu a lorem mattis fermentum eget vel arcu.
+                                    </p>
+                                    <a class="joined-btn">Joined</a>
+                                </div>
+                            </div>
+                            <div class="register-right-item">
+                                <div class="register-right-item-left">
+                                    <span class="right-number">6</span>
+                                    <img src="img/item-2.png">
+                                    <span class="right-title">Hellen Fine</span>
+                                </div>
+                                <div class="register-right-item-content">
+                                    <p class="register-right-item-p">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Donec ut arcu a lorem mattis fermentum eget vel arcu.
+                                    </p>
+                                    <a class="joined-btn">Joined</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="finish-btn">Finish</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Modal -->
+       <div class="modal fade live-chat-modal" id="postModal" tabindex="-1" role="dialog" aria-labelledby="postModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content live-chat-block">
+				<div class="live-chat-left">
+					<iframe width="100%" height="793" src="https://www.youtube.com/embed/yKhh4k4_seA?rel=0&autoplay=1" allow="autoplay; encrypted-media"></iframe>
+				</div>
+				<div class="live-chat-right">
+                    <div class="live-chat-header">
+                        CHAT HAS BEEN DISABLED
+                        <img src="img/chat/close-2.png" data-dismiss="modal" aria-label="Close">
+					</div>
+					<div class="live-chat-content">
+					<div class="live-chat-block-2"  id="live-scroll">
+						<div class="live-chat-content-item">
+                    	                        <div class="chat-left-item-left">
+                    	                            <img src="img/chat/man.png">
+                    	                        </div>
+                    	                        <div>
+                    	                            <p class="chat-title">John Cook</p>
+                    	                            <p class="chat-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel </p>
+                    	                        </div>
+                    	                    </div>
+                        <div class="live-chat-content-item">
+                            <div class="chat-left-item-left">
+                                <img src="img/chat/man.png">
+                            </div>
+                            <div>
+                                <p class="chat-title">John Cook</p>
+                                <p class="chat-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel arcu.
+                                    Suspendisse vel arcu quis ligula facilisis rhoncus quis ut libero. Suspendisse porttitor tellus quis purus accumsan, at posuere nulla maximus.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="live-chat-content-item">
+                            <div class="chat-left-item-left">
+                                <img src="img/chat/man.png">
+                            </div>
+                            <div>
+                                <p class="chat-title">John Cook</p>
+                                <p class="chat-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel </p>
+                            </div>
+                        </div>
+                        <div class="live-chat-content-item">
+                            <div class="chat-left-item-left">
+                                <img src="img/chat/man.png">
+                            </div>
+                            <div>
+                                <p class="chat-title">John Cook</p>
+                                <p class="chat-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut arcu a lorem mattis fermentum eget vel </p>
+                            </div>
+                        </div>
+					</div>
+	                    <div class="chat-block-2">
+	                        <p class="chat-text-1">Comment as John Cook</p>
+                            <textarea class="chat-block-3">What are your thoughts?</textarea>
+	                    </div>
+					</div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+        <script src="libs/js/jquery-3.3.1.min.js"></script>
+        <script src="libs/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+

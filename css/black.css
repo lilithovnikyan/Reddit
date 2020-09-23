@@ -1,0 +1,578 @@
+.activeContent,
+.activeContent .second-content-info {
+    background: #202225;
+}
+.activeContent .home-header {
+    background: #1A1B1D;
+}
+.activeContent .search-btn {
+    background: url(../img/magnifying-glass.png) no-repeat 200px #2F3135;
+ }
+.activeContent .popular-select {
+    background: url(../img/white-down.png) no-repeat 209px #2F3135;
+    color: #F8F8F8 !important;
+}
+.activeContent .second-header {
+    background: #2E3035;
+}
+.activeContent .popular-select-everywhere {
+    background: url(../img/white-down.png) no-repeat 88px #2F3135;
+    color: #F8F8F8 !important;
+}
+.activeContent .popular-select-hot {
+    background: url(../img/white-down.png) no-repeat 34px transparent;
+    color: #fff !important;
+}
+.activeContent .trending-today-title,
+.activeContent .text-3,
+.activeContent .aside-block-1-test span,
+.activeContent .post-right p,
+.activeContent .see-more,
+.activeContent .aside-block-frontpage-text,
+.activeContent .aside-block-3 span,
+.activeContent .aside-block-span,
+.activeContent .aside-block-text-3,
+.activeContent .aside-block-text-4,
+.activeContent {
+    color: #fff;
+}
+.activeContent .text-1 {
+    color: #E9E9E9;
+}
+.activeContent .text-4 {
+    color: #ABABAB;
+}
+.activeContent .sec-header {
+    width: 100%;
+    background: #2E3035;
+}
+.activeContent .white-img {
+    display: inline;
+}
+.activeContent .blue-img {
+    display: none;
+}
+.activeContent .white-time {
+    display: none;
+}
+.activeContent .black-time {
+    display: inline
+}
+.activeContent .create-post-input input {
+    background: #2F3135;
+}
+.activeContent .create-post-img-2 {
+    display: block;
+}
+.activeContent .create-post-img {
+    display: none;
+}
+.activeContent .create-posts-content {
+    background: #303236;
+}
+.activeContent .aside-block-1,
+.activeContent .aside-block-2 {
+    background: #303236;
+}
+.activeContent .aside-block-1 span {
+    color: #E9E9E9;
+}
+.activeContent .communities-btn {
+    background: transparent;
+}
+.activeContent .popular-communities-items a,
+.activeContent .last-aside li:last-child {
+    border-bottom: 1px solid #3A3A3A;
+}
+.activeContent .dropdown-menu,
+.activeContent .dropdown-item:focus,
+.activeContent .dropdown-item:hover {
+    background: #3F4146;
+}
+.activeContent .dropdown-menu {
+    background: #3F4146;
+}
+.activeContent .dropdown-item:hover .text-7,
+.activeContent .dropdown-item:focus .text-7 {
+    color: #2EA791 !important;
+}
+.activeContent .dropdown-item .slider {
+    background: #2F3135;
+}
+.activeContent .dropdown-item .slider:before {
+    background: #2EA791;
+}
+.activeContent .my-profile {
+    background: #2E3035;
+}
+.activeContent .my-profile-content {
+    background: #202225;
+}
+.activeContent .my-profile-block-left {
+    background: #303236;
+}
+.activeContent .block-6,
+.activeContent .block-7 {
+    background: #303236;
+}
+.activeContent .block-4 {
+    background: #2EA791;
+}
+.activeContent .modal-content {
+    background: #202225;
+}
+.activeContent .input-write,
+.activeContent .local-area {
+    background: #2F3135;
+    border: 0;
+}
+.activeContent .sign-btn,
+.activeContent .verified-btn,
+.activeContent .joined-btn {
+    background: transparent;
+}
+.activeContent .register-left,
+.activeContent .register-right {
+    background: #2F3135;
+}
+.activeContent .right-number {
+    color: #2EA791;
+}
+.activeContent .register-left-item img {
+    display: none;
+}
+.activeContent .register-left-item .white-icon {
+    display: block;
+}
+.activeContent .downvoted-block {
+    background: #303236;
+}
+.activeContent .text-17 {
+    background: #303236;
+}
+.activeContent .settings-block-1 ul li .settings-active-text,
+.activeContent .settings-block-3 label {
+    color: #2EA791 !important;
+}
+.activeContent .settings-header {
+    background: #2E3035;
+}
+.activeContent .settings-block-2-content {
+    background: #303236;
+}
+.activeContent .settings-block-3 input {
+    background: #2F3135;
+}
+.activeContent .settings-text-3,
+.activeContent .settings-text-4,
+.activeContent .settings-text-7,
+.activeContent .settings-text-8,
+.activeContent .settings-text-11 {
+    color: #2EA791 !important;
+}
+.activeContent .settings-text-9 {
+    background: transparent;
+}
+.activeContent .foreign-green {
+    display: block;
+}
+.activeContent .foreign {
+    display: none;
+}
+.activeContent .set-feed-btn {
+    color: #2EA791!important;
+    background: transparent;
+}
+.activeContent .settings-drop-menu .dropdown-item {
+    color: white;
+}
+.activeContent .settings-drop-menu .dropdown-item:hover {
+    border-bottom: 1px solid white;
+    background: #3f414673;
+}
+.activeContent .settings-block-5 input {
+    background: transparent;
+}
+.activeContent .settings-block-5 .local-area {
+    background: #ABABAB;
+    border: 0;
+}
+.activeContent .create-popular-select {
+    background: #2F3135;
+    color: white !important;
+}
+.activeContent .create-post-left-ul li a:hover {
+    color: #2EA791 !important;
+    cursor: pointer;
+}
+.activeContent .input-1 {
+    background: #2F3135;
+}
+.activeContent .create-post-block-left {
+    background: #202225;
+}
+.activeContent .input-2 {
+    background: #2F3135;
+}
+.activeContent .coins-section-2 {
+    background: #202225;
+}
+.activeContent .coins-text-3,
+.activeContent .medal-title,
+.activeContent .coins-text-5,
+.activeContent .coins-text-6,
+.activeContent .price-title {
+    color: #2EA791;
+}
+.activeContent .coins-text-4,
+.activeContent .medal-text,
+.activeContent .coins-text-7,
+.activeContent .price-text,
+.activeContent .coins-text-8 {
+    color: #fff;
+}
+.activeContent .medal-item,
+.activeContent .price-item {
+    background: #2F3135;
+}
+.activeContent .coins-section-6 {
+    background: #2EA791;
+}
+.activeContent .coins-section-over,
+.activeContent .premium-section-over,
+.activeContent .page-section-over {
+    background: #0e5e5052;
+}
+.activeContent .update-text,
+.activeContent .page-text-3 {
+    color: white;
+}
+.activeContent .premium-block-2 {
+    background: #2F3135;
+}
+.activeContent .premium-text-1 {
+    color: white;
+}
+.activeContent .page-search-btn {
+    color: white;
+    background: url(../img/magnifying-glass-2.png) no-repeat 97% #2F3135;
+}
+.activeContent .page-search-btn::placeholder {
+    color: white;
+}
+.activeContent .page-text-1,
+.activeContent .page-item-1 ul li,
+.activeContent .page-ul-1 li {
+    color: white;
+}
+.activeContent .page-item-1 ul {
+    background: #2F3135;
+}
+.activeContent .page-item-1 ul li::before {
+    color: white;
+}
+.activeContent .page-text-2 {
+    color: #2EA791;
+}
+.activeContent .page-text-4 {
+    color: white;
+}
+.activeContent .chat-block,
+.activeContent .chat-left {
+    background: #676767;
+}
+.activeContent .chat-left-item:hover {
+    background: #4A4949;
+}
+.activeContent .rooms-direct,
+.activeContent .chat-text,
+.activeContent .live-chat-header {
+    color: #fff;
+}
+.activeContent .chat-right-input {
+    color: #fff;
+    background: url(../img/chat/send-button-2.png) no-repeat right 11px center;
+}
+.activeContent .chat-right-input::placeholder {
+    color: #fff;
+}
+.activeContent .chat-right-icons-2 {
+    display: none;
+}
+.activeContent .chat-right-icons-3 {
+    display: block;
+}
+.activeContent .live-chat-right {
+    background: #676767;
+}
+.activeContent .chat-block-3 {
+    border: 1px solid #ABABAB;
+    background: transparent;
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
+.activeContent {
+
+}
